@@ -50,3 +50,6 @@ env.yml
 
 # Jetbrains IDEs
 .idea
+
+# personal notes to self
+mocks/testing-api.txt
