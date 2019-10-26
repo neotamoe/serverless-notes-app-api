@@ -43,7 +43,7 @@ provider:
         - dynamodb:UpdateItem
       # restrict our IAM role permissions to the specific table for the stage
       Resource: 
-        - "Fn::GetAtt":[NotesTable, Arn]
+        - "Fn::GetAtt": [ NotesTable, Arn]
 
 functions:
   create:
